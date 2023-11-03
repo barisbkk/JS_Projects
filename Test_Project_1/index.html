@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 80vh;
+        padding: 4rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1 id="title">aaa</h1>
+      <nav>
+        <ul class="nav-item">
+          <li id="home">Home</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <input type="text" id="username" />
+        <input type="password" id="password" />
+        <button class="btn">Login</button>
+      </section>
+      <section id="projects">
+        <h3>Projects</h3>
+        <ul></ul>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
